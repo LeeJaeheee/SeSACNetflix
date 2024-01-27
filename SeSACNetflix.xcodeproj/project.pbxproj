@@ -18,6 +18,11 @@
 		D26AF2062B63E3D70028CA37 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AF2052B63E3D70028CA37 /* MainTabBarController.swift */; };
 		D26AF2092B63E9F40028CA37 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D26AF2082B63E9F40028CA37 /* SnapKit */; };
 		D26AF20B2B63E9F40028CA37 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D26AF20A2B63E9F40028CA37 /* SnapKit-Dynamic */; };
+		D26AF20E2B63EE4F0028CA37 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AF20D2B63EE4F0028CA37 /* Protocol.swift */; };
+		D26AF2102B64D4730028CA37 /* UIButton+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AF20F2B64D4730028CA37 /* UIButton+Ext.swift */; };
+		D26AF2132B6511540028CA37 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AF2122B6511540028CA37 /* HomeHeaderView.swift */; };
+		D26AF2152B651EBD0028CA37 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AF2142B651EBD0028CA37 /* HomeTableViewCell.swift */; };
+		D26AF2172B65245F0028CA37 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AF2162B65245F0028CA37 /* HomeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		D26AF2012B63E2300028CA37 /* NewAndHotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAndHotViewController.swift; sourceTree = "<group>"; };
 		D26AF2032B63E23E0028CA37 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 		D26AF2052B63E3D70028CA37 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		D26AF20D2B63EE4F0028CA37 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		D26AF20F2B64D4730028CA37 /* UIButton+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Ext.swift"; sourceTree = "<group>"; };
+		D26AF2122B6511540028CA37 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		D26AF2142B651EBD0028CA37 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		D26AF2162B65245F0028CA37 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,7 @@
 			children = (
 				D26AF1E62B63DC030028CA37 /* AppDelegate.swift */,
 				D26AF1E82B63DC030028CA37 /* SceneDelegate.swift */,
+				D26AF2112B65112C0028CA37 /* View */,
 				D26AF1FC2B63DF420028CA37 /* Controller */,
 				D26AF20C2B63EA1E0028CA37 /* Resource */,
 				D26AF1EF2B63DC050028CA37 /* Assets.xcassets */,
@@ -92,8 +103,20 @@
 		D26AF20C2B63EA1E0028CA37 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				D26AF20D2B63EE4F0028CA37 /* Protocol.swift */,
+				D26AF20F2B64D4730028CA37 /* UIButton+Ext.swift */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		D26AF2112B65112C0028CA37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D26AF2122B6511540028CA37 /* HomeHeaderView.swift */,
+				D26AF2142B651EBD0028CA37 /* HomeTableViewCell.swift */,
+				D26AF2162B65245F0028CA37 /* HomeCollectionViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +200,11 @@
 				D26AF2022B63E2300028CA37 /* NewAndHotViewController.swift in Sources */,
 				D26AF1E72B63DC030028CA37 /* AppDelegate.swift in Sources */,
 				D26AF2062B63E3D70028CA37 /* MainTabBarController.swift in Sources */,
+				D26AF2132B6511540028CA37 /* HomeHeaderView.swift in Sources */,
+				D26AF2102B64D4730028CA37 /* UIButton+Ext.swift in Sources */,
+				D26AF20E2B63EE4F0028CA37 /* Protocol.swift in Sources */,
+				D26AF2172B65245F0028CA37 /* HomeCollectionViewCell.swift in Sources */,
+				D26AF2152B651EBD0028CA37 /* HomeTableViewCell.swift in Sources */,
 				D26AF1E92B63DC030028CA37 /* SceneDelegate.swift in Sources */,
 				D26AF2042B63E23E0028CA37 /* DownloadViewController.swift in Sources */,
 				D26AF2002B63E2220028CA37 /* HomeViewController.swift in Sources */,
