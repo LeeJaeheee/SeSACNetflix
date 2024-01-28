@@ -29,6 +29,7 @@ enum Tag: CaseIterable {
 
 class NewAndHotViewController: UIViewController {
     
+    let tableView = UITableView()
     lazy var collectionView = UICollectionView(frame: .zero, collectionViewLayout: configureCollectionViewLayout())
 
     override func viewDidLoad() {
@@ -55,16 +56,24 @@ extension NewAndHotViewController: VCProtocol {
     
     func configureHierarchy() {
         view.addSubview(collectionView)
+        view.addSubview(tableView)
     }
     
     func configureView() {
         configureCollectionView()
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(NewAndHotTableViewCell.self, forCellReuseIdentifier: NewAndHotTableViewCell.identifier)
     }
     
     func setupConstraints() {
         collectionView.snp.makeConstraints { make in
             make.top.horizontalEdges.equalTo(view.safeAreaLayoutGuide)
             make.height.equalTo(60)
+        }
+        tableView.snp.makeConstraints { make in
+            make.top.equalTo(collectionView.snp.bottom)
+            make.horizontalEdges.bottom.equalTo(view.safeAreaLayoutGuide)
         }
     }
     
@@ -104,6 +113,19 @@ extension NewAndHotViewController: UICollectionViewDelegate, UICollectionViewDat
         
         return cell
     }
+    
+}
+
+extension NewAndHotViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: NewAndHotTableViewCell.identifier, for: indexPath) as! NewAndHotTableViewCell
+        return cell
+    }
+    
     
 }
 

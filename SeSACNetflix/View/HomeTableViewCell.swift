@@ -33,6 +33,7 @@ extension HomeTableViewCell: ConfigureProtocol {
     
     func configureView() {
         configureCollectionView()
+        collectionView.showsHorizontalScrollIndicator = false
     }
     
     func setupConstraints() {

@@ -24,6 +24,8 @@
 		D26AF2152B651EBD0028CA37 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AF2142B651EBD0028CA37 /* HomeTableViewCell.swift */; };
 		D26AF2172B65245F0028CA37 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AF2162B65245F0028CA37 /* HomeCollectionViewCell.swift */; };
 		D26AF2192B653F850028CA37 /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AF2182B653F850028CA37 /* TagCollectionViewCell.swift */; };
+		D26AF21B2B656ADA0028CA37 /* NewAndHotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AF21A2B656ADA0028CA37 /* NewAndHotTableViewCell.swift */; };
+		D26AF21D2B656F840028CA37 /* NewAndHotButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26AF21C2B656F840028CA37 /* NewAndHotButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		D26AF2142B651EBD0028CA37 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		D26AF2162B65245F0028CA37 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		D26AF2182B653F850028CA37 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
+		D26AF21A2B656ADA0028CA37 /* NewAndHotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAndHotTableViewCell.swift; sourceTree = "<group>"; };
+		D26AF21C2B656F840028CA37 /* NewAndHotButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAndHotButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				D26AF2142B651EBD0028CA37 /* HomeTableViewCell.swift */,
 				D26AF2162B65245F0028CA37 /* HomeCollectionViewCell.swift */,
 				D26AF2182B653F850028CA37 /* TagCollectionViewCell.swift */,
+				D26AF21A2B656ADA0028CA37 /* NewAndHotTableViewCell.swift */,
+				D26AF21C2B656F840028CA37 /* NewAndHotButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -206,8 +212,10 @@
 				D26AF2132B6511540028CA37 /* HomeHeaderView.swift in Sources */,
 				D26AF2102B64D4730028CA37 /* UIButton+Ext.swift in Sources */,
 				D26AF20E2B63EE4F0028CA37 /* Protocol.swift in Sources */,
+				D26AF21B2B656ADA0028CA37 /* NewAndHotTableViewCell.swift in Sources */,
 				D26AF2172B65245F0028CA37 /* HomeCollectionViewCell.swift in Sources */,
 				D26AF2152B651EBD0028CA37 /* HomeTableViewCell.swift in Sources */,
+				D26AF21D2B656F840028CA37 /* NewAndHotButtonView.swift in Sources */,
 				D26AF1E92B63DC030028CA37 /* SceneDelegate.swift in Sources */,
 				D26AF2192B653F850028CA37 /* TagCollectionViewCell.swift in Sources */,
 				D26AF2042B63E23E0028CA37 /* DownloadViewController.swift in Sources */,
